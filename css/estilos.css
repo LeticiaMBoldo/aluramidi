@@ -6,7 +6,7 @@
   --luz: rgb(229, 255, 0);
 }
 
- body {
+body {
   align-items: center;
   background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
   display: flex;
@@ -64,4 +64,15 @@ h1 {
 .tecla.active:focus,
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+}
+
+.meuPlayer {
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+  /* Adicione mais estilos conforme necessário */
+}
+
+.teclado__espaçamento {
+  margin: 2em 0;
 }
